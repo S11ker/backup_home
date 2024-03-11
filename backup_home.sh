@@ -2,7 +2,7 @@
 
 DATE=$(date +"Date(%d_%m_%Y)_Time(%H_%M)")
 
-mkdir $HOME/backups_home
+mkdir -p $HOME/backups_home
 
 cd "$HOME"/backups_home || exit
 
